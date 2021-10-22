@@ -41,27 +41,27 @@ header{
  }
 
 
-header > p {
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    color: white;
-    max-width: 500px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin:auto;
-    margin-bottom: 20px;;
-    text-shadow: 2px 2px #0000007a;
-}
+
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
-    text-shadow:  2px 2px #0000007a;;
-    
+    padding-bottom: 20px;
+    text-shadow:  2px 2px 0px #0000007a;;
+}
 
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin:auto;
+    padding-bottom: 30px;;
+    text-shadow: 2px 2px 0px #0000007a;
 }
 
 nav{
